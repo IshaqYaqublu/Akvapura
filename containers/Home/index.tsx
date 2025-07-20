@@ -85,7 +85,7 @@ const HomePage = () => {
           alt="Akvapura distillə su şüşəsi"
           width={1000}
           height={1000}
-          className="w-full h-auto md:h-screen object-cover"
+          className="w-full h-auto md:h-screen "
         />
       </div>
     </main>
