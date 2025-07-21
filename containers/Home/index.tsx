@@ -14,12 +14,11 @@ const HomePage = () => {
     <main className="min-h-screen grid grid-cols-1 md:grid-cols-2 bg-gradient-to-br from-[#f8f9fa] to-[#e0e0e0] text-gray-800">
       {/* Sol hissə */}
       <div className="flex flex-col justify-between px-6 py-8 md:pl-20 md:pb-12">
-        <div className="w-full flex justify-center mb-6 md:mb-0">
+        <div className="w-full flex justify-center mb-6 md:mb-0 relative">
           <Image
             src="/Akvapura.png"
             alt="Akvapura distillə su şüşəsi"
-            width={207}
-            height={40}
+            fill
             className="lg:w-[509px] lg:h-[266px]"
             priority
           />
@@ -86,7 +85,7 @@ const HomePage = () => {
       </div>
 
       {/* Sağ hissə */}
-      <div className="w-full h-full">
+      <div className="w-full h-full relative">
         <Image
           src="/sekil1.jpg"
           alt="Akvapura distillə su şüşəsi"
@@ -94,6 +93,7 @@ const HomePage = () => {
           height={1000}
           className="w-full h-auto md:h-screen "
           priority
+          fill
         />
       </div>
     </main>
