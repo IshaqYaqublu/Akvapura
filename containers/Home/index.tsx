@@ -43,38 +43,44 @@ const HomePage = () => {
         <footer className="flex flex-col md:flex-row items-center gap-6 md:gap-10 mt-6">
           <p className="text-base md:text-lg font-medium">Bizi izləyin:</p>
           <ul className="flex gap-6 items-center justify-center w-full md:w-auto">
-            <Link
-              href="https://www.instagram.com/akvapura.az/"
-              target="_blank"
-              className="relative group text-[#E1306C] hover:text-pink-600 transition-all duration-300"
-            >
-              <FaInstagram className="w-6 h-6 md:w-[25px] md:h-[25px]" />
-              <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap">
-                Instagram
-              </span>
-            </Link>
+            <li>
+              <Link
+                href="https://www.instagram.com/akvapura.az/"
+                target="_blank"
+                className="relative group text-[#E1306C] hover:text-pink-600 transition-all duration-300"
+              >
+                <FaInstagram className="w-6 h-6 md:w-[25px] md:h-[25px]" />
+                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap">
+                  Instagram
+                </span>
+              </Link>
+            </li>
 
-            <Link
-              href="https://www.facebook.com/profile.php?id=61559868737226"
-              target="_blank"
-              className="relative group text-[#1877F2] hover:text-blue-800 transition-all duration-300"
-            >
-              <FaFacebook className="w-6 h-6 md:w-[25px] md:h-[25px]" />
-              <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap">
-                Facebook
-              </span>
-            </Link>
+            <li>
+              <Link
+                href="https://www.facebook.com/profile.php?id=61559868737226"
+                target="_blank"
+                className="relative group text-[#1877F2] hover:text-blue-800 transition-all duration-300"
+              >
+                <FaFacebook className="w-6 h-6 md:w-[25px] md:h-[25px]" />
+                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap">
+                  Facebook
+                </span>
+              </Link>
+            </li>
 
-            <Link
-              href="https://www.tiktok.com/@akvapura"
-              target="_blank"
-              className="relative group text-black hover:text-[#25F4EE] transition-all duration-300"
-            >
-              <FaTiktok className="w-6 h-6 md:w-[25px] md:h-[25px]" />
-              <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap">
-                TikTok
-              </span>
-            </Link>
+            <li>
+              <Link
+                href="https://www.tiktok.com/@akvapura"
+                target="_blank"
+                className="relative group text-black hover:text-[#25F4EE] transition-all duration-300"
+              >
+                <FaTiktok className="w-6 h-6 md:w-[25px] md:h-[25px]" />
+                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap">
+                  TikTok
+                </span>
+              </Link>
+            </li>
           </ul>
         </footer>
       </div>
