@@ -80,7 +80,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Akvapura",
-              "url": "https://www.akvapura.az", 
+              "url": "https://www.akvapura.com", 
               "logo": "https://www.akvapura.az/images/akvapura-logo.jpg",
               "contactPoint": {
                 "@type": "ContactPoint",

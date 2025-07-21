@@ -21,6 +21,7 @@ const HomePage = () => {
             width={207}
             height={40}
             className="lg:w-[509px] lg:h-[266px]"
+            priority
           />
         </div>
 
@@ -86,6 +87,7 @@ const HomePage = () => {
           width={1000}
           height={1000}
           className="w-full h-auto md:h-screen "
+          priority
         />
       </div>
     </main>
