@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     description:
       "Akvapura olaraq MasterCleaner ilə Azərbaycanda yüksək keyfiyyətli distillə su və peşəkar şüşə təmizliyi xidmətləri təklif edirik. Təmizliyə innovativ yanaşma və zəmanətli keyfiyyət.",
     creator: "@akvapura.az",
-    images: ["https://www.sakvapura.az/images/akvapura-logo.jpg"],
+    images: ["https://akvapura.az/favicon.png"],
   },
 };
 
