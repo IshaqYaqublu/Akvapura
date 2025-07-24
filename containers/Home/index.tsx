@@ -17,7 +17,7 @@ const HomePage = () => {
       <Head>
         <title>Akvapura | Distillə Su & MasterCleaner</title>
         <meta name="description" content="Azərbaycanda distillə su və şüşə təmizliyi." />
-        <meta property="og:image" content="https://akvapura.az/og-image.jpg" />
+        <meta property="og:image" content="https://akvapura.az/favicon.png" />
       </Head>
 
       <main className="min-h-screen grid grid-cols-1 md:grid-cols-2 bg-gradient-to-br from-[#f8f9fa] to-[#e0e0e0] text-gray-800 font-sans ">

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title:
     "Akvapura | Distillə Su & MasterCleaner | İnnovasiya və Keyfiyyətli Şüşə Təmizliyi",
   icons: {
-    icon: "/Akvapura.png",
+    icon: "/favicon.png",
   },
   description:
     "Akvapura olaraq MasterCleaner ilə Azərbaycanda yüksək keyfiyyətli distillə su və peşəkar şüşə təmizliyi xidmətləri təklif edirik. Təmizliyə innovativ yanaşma və zəmanətli keyfiyyət.",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     siteName: "Akvapura",
     images: [
       {
-        url: "/Akvapura.png",
+        url: "/favicon.png",
         width: 1200,
         height: 630,
         alt: "Akvapura MasterCleaner Distillə Su Şüşə Təmizliyi",
@@ -80,8 +80,8 @@ export const metadata: Metadata = {
       "Akvapura | Distillə Su & MasterCleaner | İnnovasiya və Keyfiyyətli Şüşə Təmizliyi",
     description:
       "Akvapura olaraq MasterCleaner ilə Azərbaycanda yüksək keyfiyyətli distillə su və peşəkar şüşə təmizliyi xidmətləri təklif edirik. Təmizliyə innovativ yanaşma və zəmanətli keyfiyyət.",
-    creator: "@SizinTwitterHesabiniz",
-    images: ["https://www.sizin-saytiniz.com/images/akvapura-logo.jpg"],
+    creator: "@akvapura.az",
+    images: ["https://www.sakvapura.az/images/akvapura-logo.jpg"],
   },
 };
 
